@@ -31,6 +31,7 @@ h2{
     font-size: 2.2em;
     text-align: center;
     transform: translateX(-5px);
+    padding-bottom: 30px;
 }
 #container{
     display: flex;
@@ -177,7 +178,7 @@ input{
         height: max-content;
         margin-left: 0;
         background-color: rgba(255, 0, 0, 0);
-        padding-top: 10px;
+        transform: translateY(-10px);
     
     }
     img{
@@ -197,7 +198,7 @@ input{
     }
     .titulo{
         display: block;
-        padding: 20px 0;
+        padding-bottom: 30px;
         font-size: 2em;
     }  
 }
