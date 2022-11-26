@@ -13,6 +13,9 @@ body{
 
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+
+    height: 100vh;
+    width: 100vw;
 }
 .formulario{
     display: flex;
@@ -40,13 +43,14 @@ h2{
     align-items: center;
     overflow: hidden;
 
-    border-radius: 35px;
+    border-radius: 20px;
     height: 75vh;
     width: 80vw;
+    min-height: 495px;
     max-width: 800px;
 
     background-image:linear-gradient(to bottom, #dddddd, #ececec);
-    margin: 70px auto;
+    margin: 10vh auto;
     box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 }
 .image{
@@ -71,7 +75,11 @@ img{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    
+    border: none;
+    outline: 0;
+    font-size: 1em;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+
     margin: 5px 0;
     
     height: 45px;
@@ -88,11 +96,12 @@ img{
 input:focus
 {
     background-color: #ffffff;
-    color: #107745;
+    color: #0b492b;
     border: none;
     border-style: none;
     box-shadow: 0 0 0 0;
     outline: 0;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 .link:hover{
     color: #107745;
@@ -116,8 +125,9 @@ input{
     border-radius: 7px;
     background-color: #2b9f3ed3;
     color: white;
-    font-size: 1.1em;
+    font-size: 1.05em;
     transition: all .3s;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 #altlogin{
     display: flex;
@@ -136,8 +146,8 @@ input{
     width: max-content;
     max-width: 90px;
     min-width: 80px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
     
-
     font-size: 1.2em;
 
     transition: all .3s;
@@ -163,6 +173,7 @@ input{
 }
 .link{
     margin-top: 10px;
+
 }
 .titulo{
     display: none;
